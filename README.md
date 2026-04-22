@@ -3,6 +3,7 @@ Blake Thomas
 MIS 321 - Spring 2026
 
 Project Summary
+
 This project is a full-stack personal assistant built with:
 
 * Frontend: HTML, CSS, JavaScript
@@ -46,3 +47,8 @@ Run MySQL script: pa3_schema.sql
 Start backend: go to Pa3Api folder, run dotnet run
 Open frontend: run index.html
 Test prompts: what is rag, what time is it, what's 5 + 9
+
+Screenshots / Demo Evidence
+<img width="1022" height="645" alt="image" src="https://github.com/user-attachments/assets/73500d96-798c-4001-b89f-9c39b6ff6f0a" />
+<img width="1058" height="594" alt="image" src="https://github.com/user-attachments/assets/7450b280-6977-4f6c-bbcc-b6c539dbe6aa" />
+
