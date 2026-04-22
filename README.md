@@ -34,7 +34,7 @@ Example prompt:
 5 + 9 → returns 14
 
 
-Fallback Mode Note
+Fallback Mode Note:
 Because OpenAI quota was requiring a payment during testing, I implemented a local fallback mode so the app still demonstrates PA3 requirements:
 * RAG still works from MySQL knowledge base
 * Function calling still works (time/math/message count)
