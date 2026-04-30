@@ -1,9 +1,7 @@
 var chatForm = document.getElementById("chatForm");
 var messageInput = document.getElementById("messageInput");
 var chatBox = document.getElementById("chatBox");
-var API_URL = window.location.hostname === "localhost"
-  ? "http://localhost:5099/api/chat"
-  : "/api/chat";
+var API_URL = "/api/chat";
 
 function addMessage(role, content) {
   var messageDiv = document.createElement("div");

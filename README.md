@@ -1,54 +1,64 @@
-# UAMIS221-321-mis-321-pa3-bkthomas7
-Blake Thomas
-MIS 321 - Spring 2026
+# MIS 321 PA3 - Personal Assistant
 
-Project Summary
+This project includes:
+- Frontend: HTML, CSS, JavaScript
+- Backend: C# (.NET 8 minimal API)
+- Database: MySQL
+- Features required by PA3:
+  - LLM chat responses
+  - RAG (retrieves context from `knowledge_base`)
+  - Function Calling (`get_current_time`, `count_saved_messages`, `simple_math`)
 
-This project is a full-stack personal assistant built with:
+## 1) Database Setup (MySQL)
 
-* Frontend: HTML, CSS, JavaScript
-* Backend: C# (.NET Web API)
-* Database: MySQL
+Run:
 
-The assistant includes the 3 required features:
+```sql
+SOURCE path/to/pa3_schema.sql;
+```
 
-LLM-style response flow for user questions
-RAG using a MySQL knowledge_base table to retrieve relevant context
-Function calling to run backend tasks (time lookup, message count, simple math)
+Or open and run `pa3_schema.sql` in MySQL Workbench.
 
-Features Implemented
-1) LLM / Chat Endpoint
-User enters a question in the web UI
-Frontend sends the message to POST /api/chat
-Backend returns assistant response to the UI
-2) RAG (Retrieval-Augmented Generation)
-Backend pulls relevant rows from knowledge_base based on user prompt keywords
-Retrieved context is used to generate a response
-Example prompt: what is rag
-3) Function Calling
-Backend functions implemented:
-get_current_time
-count_saved_messages
-simple_math (adds two values)
+## 2) Backend Setup (C# API)
 
-Example prompt:
-5 + 9 → returns 14
+Go to:
 
+`exam/Pa3Api`
 
-Fallback Mode Note:
-Because OpenAI quota was requiring a payment during testing, I implemented a local fallback mode so the app still demonstrates PA3 requirements:
-* RAG still works from MySQL knowledge base
-* Function calling still works (time/math/message count)
-* Responses are labeled with [Local fallback mode]
-This allowed the full PA3 workflow to run successfully without external API quota.
+Edit `appsettings.json`:
+- Set your MySQL password in `ConnectionStrings:DefaultConnection`
+- Set your LLM API key in `Llm:ApiKey`
 
-How to Run
-Run MySQL script: pa3_schema.sql
-Start backend: go to Pa3Api folder, run dotnet run
-Open frontend: run index.html
-Test prompts: what is rag, what time is it, what's 5 + 9
+Run:
 
-Screenshots / Demo Evidence
-<img width="1022" height="645" alt="image" src="https://github.com/user-attachments/assets/73500d96-798c-4001-b89f-9c39b6ff6f0a" />
-<img width="1058" height="594" alt="image" src="https://github.com/user-attachments/assets/7450b280-6977-4f6c-bbcc-b6c539dbe6aa" />
+```bash
+dotnet restore
+dotnet run
+```
 
+API runs on:
+
+`http://localhost:5099`
+
+## 3) Frontend Setup
+
+Open `exam/index.html` using Live Server (or any static server).
+
+The frontend calls:
+
+`http://localhost:5099/api/chat`
+
+## 4) Test Prompts for Assignment Features
+
+- LLM: `Explain what an LLM is in simple terms.`
+- RAG: `What is RAG?`
+- Function calling (time): `What time is it right now?`
+- Function calling (DB count): `How many saved messages do we have?`
+- Function calling (math): `Add 12 and 30.`
+
+## 5) Suggested Submission Notes
+
+In your README / demo notes, mention:
+- RAG source table: `knowledge_base`
+- Function calls implemented in `FunctionService.cs`
+- Main orchestration in `LlmService.cs` and `Program.cs`

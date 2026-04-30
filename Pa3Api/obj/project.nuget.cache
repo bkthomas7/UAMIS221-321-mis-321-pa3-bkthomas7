@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cvK0Ua8ZoqM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\Pa3Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\blake\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\blake\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

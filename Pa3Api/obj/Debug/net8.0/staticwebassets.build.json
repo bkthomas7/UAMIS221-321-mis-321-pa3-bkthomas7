@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "XF6+OWKv31SHTKdWqm41wO6IDOgKmPpoasgCQ+XTUyU=",
+  "Source": "Pa3Api",
+  "BasePath": "_content/Pa3Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Pa3Api\\wwwroot",
+      "Source": "Pa3Api",
+      "ContentRoot": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\",
+      "BasePath": "_content/Pa3Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\index.html",
+      "SourceId": "Pa3Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\",
+      "BasePath": "_content/Pa3Api",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\script.js",
+      "SourceId": "Pa3Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\",
+      "BasePath": "_content/Pa3Api",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\styles.css",
+      "SourceId": "Pa3Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\",
+      "BasePath": "_content/Pa3Api",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\styles.css"
+    }
+  ]
+}

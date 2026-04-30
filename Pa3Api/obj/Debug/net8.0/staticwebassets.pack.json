@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\blake\\OneDrive\\Documents\\MIS321\\mis-321-pa3-bkthomas7\\Pa3Api\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pa3Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Pa3Api.props",
+      "PackagePath": "build\\Pa3Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Pa3Api.props",
+      "PackagePath": "buildMultiTargeting\\Pa3Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Pa3Api.props",
+      "PackagePath": "buildTransitive\\Pa3Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
